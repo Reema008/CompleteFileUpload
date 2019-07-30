@@ -1,0 +1,48 @@
+
+  table, thead, td,th,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+  
+  }
+  th,td{
+      padding:5px;
+     
+  }
+  .button {
+    display: inline-block;
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background:maroon;
+    background: -webkit-gradient(linear, left top, left bottom, from(maroon), to(maroon));
+    background: -moz-linear-gradient(top,maroon,maroon);
+    background: linear-gradient(to bottom, maroon,maroon);
+    text-decoration: none;
+    font:13px ;
+   color:white;
+  }
+  .button1{
+    display: inline-block;
+    height: 40px;
+    width: 210px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background:maroon;
+    background: -webkit-gradient(linear, left top, left bottom, from(maroon), to(maroon));
+    background: -moz-linear-gradient(top,maroon,maroon);
+    background: linear-gradient(to bottom, maroon,maroon);
+    text-decoration: none;
+    font:13px ;
+   color:white;
+  }
+  .head{
+    font:25px ;
+    color:black;
+  }

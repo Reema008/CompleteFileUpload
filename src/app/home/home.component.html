@@ -1,0 +1,54 @@
+<div><br><br>
+<nav class="navbar navbar-expand-lg navbar  navbar-light" style="background-color: rgb(153, 223, 193);">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto"><span style="margin-left: 1em"></span>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Forms<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li> <a class="nav-link" [routerLink]="['/form']">Reactive Form</a></li>
+            <li> <a class="nav-link" [routerLink]="['/ngform']">Template Form</a></li>
+          </ul>
+        </li><span style="margin-left: 1em"></span>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Employee <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li> <a class="nav-link" [routerLink]="['/employee_departments']">Employee Department</a></li>
+            <li> <a class="nav-link" [routerLink]="['/userdetails']">Employee Details</a></li>
+          </ul>
+        </li><span style="margin-left: 1em"></span>
+          <li class="nav-item active">
+            <a class="nav-link" [routerLink]="['/security']">Encrypt/Decrypt</a>
+        </li><span style="margin-left: 1em"></span>
+        <li class="nav-item active">
+          <a class="nav-link" [routerLink]="['/datePicker']">Date And Range Picker</a>
+      </li><span style="margin-left: 1em"></span>
+      <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Add <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a class="nav-link" [routerLink]="['/add']">Add More</a></li>
+            <li> <a class="nav-link" [routerLink]="['/addmore']">Add More(ngModel)</a></li>
+          </ul>
+        </li><span style="margin-left: 1em"></span>
+    <li class="nav-item active">
+      <a class="nav-link" [routerLink]="['/calendar']">Calendar</a>
+  </li><span style="margin-left: 1em"></span>
+        </ul>
+        
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"> <a class="nav-link" [routerLink]="['/date']">Register</a></li><span style="margin-left: 1em"></span>
+        <li class="nav-item active">  <a class="nav-link" [routerLink]="['/login']">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+</div>
+
+  
+
+ 
